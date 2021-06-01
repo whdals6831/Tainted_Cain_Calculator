@@ -1,0 +1,26 @@
+.pickup_item_wrap {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 3px solid #F8CA01;
+    width: 280px;
+}
+
+.pickup_item_list img {
+    cursor: pointer;
+    transform: scale(2);
+    image-rendering: pixelated;
+}
+
+.pickup_item_list li {
+    padding: 15px;
+}
+
+.pickup_item_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
