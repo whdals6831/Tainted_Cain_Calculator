@@ -13,6 +13,7 @@ class Home extends React.Component {
     }
 
     changeRecipeShape = (arr) => {
+        arr = [...arr]; // CraftingTable 정렬 방지
         arr.sort((a,b) => a-b);
         arr = arr.map(n => String.fromCharCode(96+n));
         const key = arr.join("");
@@ -44,19 +45,20 @@ class Home extends React.Component {
         if (this.state.bag.length > 0) {
             var temp = [...this.state.bag];
             temp.splice(idx, 1);
-            
-            this.setState({
-                bag: temp,
-                recipe: this.changeRecipeShape(temp)
-            });
+
+            if (temp.length === 0) {
+                this.setItemList();
+            }
+            else {
+                this.setState({
+                    bag: temp,
+                    recipe: this.changeRecipeShape(temp)
+                });
+            }
         }
     }
-    
-    componentDidUpdate() {
-        console.log(this.state.bag);
-    }
 
-    componentDidMount() {
+    setItemList = () => {
         var temp = [];
 
         Object.keys(items).map(item => {
@@ -64,8 +66,17 @@ class Home extends React.Component {
         });
 
         this.setState({
+            bag: [],
             recipe: temp
         });
+    }
+    
+    componentDidUpdate() {
+        console.log(this.state.bag);
+    }
+
+    componentDidMount() {
+        this.setItemList();
     }
 
     render() {
