@@ -28,5 +28,6 @@
     top: 30px;
     left: 27px;
     cursor: pointer;
-    z-index: 999;
+    image-rendering: pixelated;
+    z-index: 9999;
 }

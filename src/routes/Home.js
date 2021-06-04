@@ -70,10 +70,6 @@ class Home extends React.Component {
             recipe: temp
         });
     }
-    
-    componentDidUpdate() {
-        console.log(this.state.bag);
-    }
 
     componentDidMount() {
         this.setItemList();

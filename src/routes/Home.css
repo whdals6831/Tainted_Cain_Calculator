@@ -18,3 +18,9 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.second_floor {
+    min-width: 90%;
+    max-width: 90%;
+    margin-bottom: 150px;
+}

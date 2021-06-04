@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "isaacGame";
+    src: url("../Font/IsaacGame.ttf");
+}
+
+@font-face {
+    font-family: "silombol";
+    src: url("../Font/SilomBol.ttf");
+}
+
+.item_detail {
+    position: absolute;
+    width: max-content;
+    top: 64px;
+    background-color: darkgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999;
+}
+
+.item_name {
+    font-family: "silombol";
+    font-size: 20px;
+    padding: 15px 10px 15px 10px;
+}
+
+.item_recipes_recipe {
+    /* 위, 오른쪽, 아래 왼쪽 */
+    padding: 0px 15px 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_recipes_recipe_img {
+    padding: 3px;
+    image-rendering: pixelated;
+}
+
+.no_recipe_text {
+    padding: 20px;
+}
