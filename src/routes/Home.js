@@ -4,6 +4,8 @@ import ItemList from "../components/ItemList";
 import newRecipes from "../newRecipes.json";
 import PickUpItem from "../components/PickUpItem";
 import CraftingTable from "../components/CraftingTable";
+import Title from "../components/Title";
+import Foot from "../components/Foot";
 import "./Home.css";
 
 class Home extends React.Component {
@@ -78,6 +80,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="Home">
+                <Title />
                 <div className="first_floor">
                     <CraftingTable bag={this.state.bag} removeItemOfBag={this.removeItemOfBag}/>
                     <PickUpItem addItemToBag={this.addItemToBag} />
@@ -85,6 +88,7 @@ class Home extends React.Component {
                 <div className="second_floor">
                     <ItemList recipe={this.state.recipe} />
                 </div>
+                <Foot />
             </div>
         );
     }

@@ -26,7 +26,7 @@ class ItemDetail extends React.Component {
         else {
             return (
                 <div className="no_recipe_text">
-                    {"No recipes"}
+                    <b>{"No recipes"}</b>
                 </div>
             );
         }

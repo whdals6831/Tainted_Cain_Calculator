@@ -11,7 +11,7 @@ body {
 .first_floor {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 90%;
     min-width: 90%;
@@ -20,7 +20,7 @@ body {
 }
 
 .second_floor {
-    min-width: 90%;
-    max-width: 90%;
-    margin-bottom: 150px;
+    min-width: 70%;
+    max-width: 70%;
+    margin-bottom: 100px;
 }
