@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Tainted_Cain_Calculator/static/css/main.dbad7a12.chunk.css",
-    "main.js": "/Tainted_Cain_Calculator/static/js/main.cabbd347.chunk.js",
-    "main.js.map": "/Tainted_Cain_Calculator/static/js/main.cabbd347.chunk.js.map",
+    "main.js": "/Tainted_Cain_Calculator/static/js/main.3e7bfaee.chunk.js",
+    "main.js.map": "/Tainted_Cain_Calculator/static/js/main.3e7bfaee.chunk.js.map",
     "runtime-main.js": "/Tainted_Cain_Calculator/static/js/runtime-main.55b31f76.js",
     "runtime-main.js.map": "/Tainted_Cain_Calculator/static/js/runtime-main.55b31f76.js.map",
     "static/js/2.b79f38bd.chunk.js": "/Tainted_Cain_Calculator/static/js/2.b79f38bd.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.55b31f76.js",
     "static/js/2.b79f38bd.chunk.js",
     "static/css/main.dbad7a12.chunk.css",
-    "static/js/main.cabbd347.chunk.js"
+    "static/js/main.3e7bfaee.chunk.js"
   ]
 }
