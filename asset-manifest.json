@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Tainted_Cain_Calculator/static/css/main.dbad7a12.chunk.css",
+    "main.js": "/Tainted_Cain_Calculator/static/js/main.10a934f3.chunk.js",
+    "main.js.map": "/Tainted_Cain_Calculator/static/js/main.10a934f3.chunk.js.map",
+    "runtime-main.js": "/Tainted_Cain_Calculator/static/js/runtime-main.55b31f76.js",
+    "runtime-main.js.map": "/Tainted_Cain_Calculator/static/js/runtime-main.55b31f76.js.map",
+    "static/js/2.b79f38bd.chunk.js": "/Tainted_Cain_Calculator/static/js/2.b79f38bd.chunk.js",
+    "static/js/2.b79f38bd.chunk.js.map": "/Tainted_Cain_Calculator/static/js/2.b79f38bd.chunk.js.map",
+    "index.html": "/Tainted_Cain_Calculator/index.html",
+    "static/css/main.dbad7a12.chunk.css.map": "/Tainted_Cain_Calculator/static/css/main.dbad7a12.chunk.css.map",
+    "static/js/2.b79f38bd.chunk.js.LICENSE.txt": "/Tainted_Cain_Calculator/static/js/2.b79f38bd.chunk.js.LICENSE.txt",
+    "static/media/Foot.css": "/Tainted_Cain_Calculator/static/media/BinggraeTaom-Bold.7d604f55.ttf",
+    "static/media/ItemDetail.css": "/Tainted_Cain_Calculator/static/media/SilomBol.039cfb77.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55b31f76.js",
+    "static/js/2.b79f38bd.chunk.js",
+    "static/css/main.dbad7a12.chunk.css",
+    "static/js/main.10a934f3.chunk.js"
+  ]
+}
