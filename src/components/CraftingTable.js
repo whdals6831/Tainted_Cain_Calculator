@@ -22,7 +22,7 @@ class CraftingTable extends React.Component {
                         return (
                             <li key={idx}>
                                 <img src={process.env.PUBLIC_URL + `/images/crop_72.png`} alt="bag" />
-                                <img className="bag_item" src={process.env.PUBLIC_URL + `images/bagicons/${bag_item_num}.png`} alt="~" onError={this.handleImgError} onClick={() => this.handleImgRemove(idx)} />
+                                <img className="bag_item" src={process.env.PUBLIC_URL + `/images/bagicons/${bag_item_num}.png`} alt="~" onError={this.handleImgError} onClick={() => this.handleImgRemove(idx)} />
                             </li>
                         );
                     })}
