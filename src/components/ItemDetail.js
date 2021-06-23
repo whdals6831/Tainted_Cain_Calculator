@@ -13,7 +13,7 @@ class ItemDetail extends React.Component {
                             {array[idx].map((m, i, arr) => {
                                     return (
                                         <div className="item_recipes_recipe_img" key={items[item].name+idx+i}>
-                                            <img src={process.env.PUBLIC_URL + `images/bagicons/${m}.png`} alt={m} />
+                                            <img src={process.env.PUBLIC_URL + `/images/bagicons/${m}.png`} alt={m} />
                                         </div>
                                     );
                                 }

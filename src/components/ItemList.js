@@ -28,7 +28,7 @@ class ItemList extends React.Component {
                     return (
                         <div className="item" key={item}>
                             <div className="item_img" key={item}>
-                                <img src={process.env.PUBLIC_URL + `images/collectibles/collectibles_${item}.png`} alt={item} onMouseOver={() => this.handleMouseOver(item)} onMouseOut={this.handleMouseOut}/>
+                                <img src={process.env.PUBLIC_URL + `/images/collectibles/collectibles_${item}.png`} alt={item} onMouseOver={() => this.handleMouseOver(item)} onMouseOut={this.handleMouseOut}/>
                             </div>
                             {this.state.hover && this.state.currentItem === item ? <ItemDetail itemIdx={item} /> : null}
                         </div>

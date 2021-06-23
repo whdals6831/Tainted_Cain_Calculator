@@ -2,7 +2,7 @@ import { HashRouter, Route } from "react-router-dom";
 import Home from "./routes/Home";
 
 function App() {
-  return <HashRouter basename={process.env.PUBLIC_URL}>
+  return <HashRouter>
     <Route path="/" exact={true} component={Home} />
   </HashRouter>;
 }

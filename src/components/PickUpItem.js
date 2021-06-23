@@ -17,7 +17,7 @@ class PickUpItem extends React.Component{
                 continue;
             }
 
-            table.push(`images/bagicons/${i+1}.png`);
+            table.push(`/images/bagicons/${i+1}.png`);
             imageNum.push(i+1);
         }
 
